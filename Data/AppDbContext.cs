@@ -1,7 +1,7 @@
-using EfCoreAdvancedDemo.Models;
 using Microsoft.EntityFrameworkCore;
+using Task2EfCore.Models;
 
-namespace EfCoreAdvancedDemo.Data;
+namespace Task2EfCore.Data;
 
 public class AppDbContext : DbContext
 {
@@ -14,7 +14,7 @@ public class AppDbContext : DbContext
     {
         modelBuilder.Entity<Product>()
             .HasIndex(p => p.Name);
-       
+
         modelBuilder.Entity<Product>()
             .HasQueryFilter(p => !p.IsDeleted);
     }

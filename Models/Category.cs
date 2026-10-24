@@ -1,4 +1,4 @@
-namespace EfCoreAdvancedDemo.Models;
+namespace Task2EfCore.Models;
 
 public class Category
 {

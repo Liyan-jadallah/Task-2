@@ -1,4 +1,4 @@
-namespace EfCoreAdvancedDemo.Dtos;
+namespace Task2EfCore.Dtos;
 
 public class ProductDto
 {

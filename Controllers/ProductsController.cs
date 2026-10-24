@@ -1,12 +1,12 @@
-using EfCoreAdvancedDemo.Data;
-using EfCoreAdvancedDemo.Dtos;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Task2EfCore.Data;
+using Task2EfCore.Dtos;
 
-namespace EfCoreAdvancedDemo.Controllers;
+namespace Task2EfCore.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/products")]
 public class ProductsController : ControllerBase
 {
     private readonly AppDbContext _context;

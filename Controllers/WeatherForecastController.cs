@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace VersioningDemo.Controllers;
+namespace Task2EfCore.Controllers;
 
 [ApiController]
 [Route("[controller]")]

@@ -1,0 +1,6 @@
+@Task2EfCore_HostAddress = http://localhost:5067
+
+GET {{Task2EfCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

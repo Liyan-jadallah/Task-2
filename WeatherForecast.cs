@@ -1,4 +1,4 @@
-namespace VersioningDemo;
+namespace Task2EfCore;
 
 public class WeatherForecast
 {

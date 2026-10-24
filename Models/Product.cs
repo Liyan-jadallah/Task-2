@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace EfCoreAdvancedDemo.Models;
+namespace Task2EfCore.Models;
 
 public class Product
 {
